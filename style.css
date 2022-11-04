@@ -10,7 +10,7 @@ body{
     float: right;
     margin-top: 0px;  
     margin-bottom: 20px;
-    position: static;
+    width: 100%;
 }
 h1, h2, dl{
     
