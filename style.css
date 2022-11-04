@@ -57,6 +57,11 @@ li{
 nav {
 	background-color: rgb(100, 61, 1);
 	border-button: solid 2px black
+	width:100%;
 	
 }
+.navbar{
+	position: fixed;
+}
+
 
