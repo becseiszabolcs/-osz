@@ -17,7 +17,7 @@ h1, h2, dl{
     padding: 20px;
     background-color: rgb(100, 61, 1);
     border: #000;
-		 overflow-y: none;
+	overflow-y: none;
     
 }
 p{
@@ -41,4 +41,9 @@ hr{
 li{
 	list-style: none;
 	margin-left: 20px;
+}
+
+b{
+	font-size: 17px;
+
 }
