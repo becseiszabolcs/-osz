@@ -1,65 +1,97 @@
 <head>
-    <title>Ősz</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link rel="script" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Ősz</title>
+	<link type="text/css" rel="stylesheet" href="https://unpkg.com/bootstrap/dist/css/bootstrap.min.css" />
+	<link type="text/css" rel="stylesheet" href="https://unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.min.css" />
+
+	<script src="https://polyfill.io/v3/polyfill.min.js?features=es2015%2CIntersectionObserver"
+		crossorigin="anonymous"></script>
+
+	<script src="https://unpkg.com/vue@latest/dist/vue.min.js"></script>
+	<script src="https://unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.min.js"></script>
+
+	<script src="https://unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue-icons.min.js"></script>
+	<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<nav class="navbar navbar-custom navbar-dark">
-	<div class="container-fluid">
+
+	<nav class="navbar navbar-custom navbar-dark">
+		<div class="container-fluid">
 			
-	<a class="navbar-brand" href="#allat">Állatok</a>
-	<a class="navbar-brand" href="#noveny">Növények</a>
-	<a class="navbar-brand" href="#kepek">Képek</a>
-	<a class="navbar-brand" href="#videok">Videók</a>
-    	<a class="navbar-brand" href="#keszitok">Készítők</a>
+			<a class="navbar-brand" href="#allat">Állatok</a>
+			<a class="navbar-brand" href="#noveny">Növények</a>
+			<a class="navbar-brand" href="#kepek">Képek</a>
+			<a class="navbar-brand" href="#videok">Videók</a>
+      <a class="navbar-brand" href="#keszitok">Készítők</a>
 
 
-	/div>
-</nav>
+		</div>
+	</nav>
 	<img src="image/roka.jpg" id="fo" alt="">
-<img src="image/roka.jpg"  id="fo" alt="">
-<h1>Az Ősz</h1>                       
-<hr>
-<p>Az ősz a mérsékelt öv egyik évszaka. Trópusi, illetve száraz és hideg égövi tájakon nem létezik.
 
-A Föld északi féltekéjén szeptember, október és november, míg a Föld déli féltekéjén március, április és május az ősz hónapjai. Az ősz a nyár és a tél között helyezkedik el, fő jellemzője a napok rövidülése, a hőmérséklet csökkenése és a lombhullató fák lombjának zöldről sárgává-pirossá színeződése majd lehullása.
-
-Hagyományosan a legtöbb országban ősszel nyitnak az iskolák, indul a tanítás. Ősz a termények betakarításának, a szőlő szüretelésének ideje is 
-
-
-Az ősz fő ünnepei az elmúláshoz kapcsolódnak: november 1. előestéje az angolszász országokban Halloween, november 1. Mindenszentek és november 2. Halottak napja.</p>
-
-<h2 class="h2">Az őszi állatok:</h2>
+	<h1>Az Ősz</h1>
 	<hr>
-<img src="image/mokus_adorjan_peter.jpg" alt=""class="img img-responsive rounded float-end">
-<p class="p"> 
-<br>
-	<b>Mókus:</b> <br> <br> az emlősök (Mammalia) osztályának rágcsálók (Rodentia) rendjébe, ezen belül a mókusfélék (Sciuridae) családjába tartozó faj. Egyéb nevei: vörös mókus vagy közönséges erdeimókus; de a népi nyelvben nevezik cibókának, evetnek vagy kelempájsz madárnak is.<br></p>
-  <hr>
-<img src="image/gimszarvas.jpg" alt="" class="img img-responsive rounded float-end">
-<p class="p">
+	<p>Az ősz a mérsékelt öv egyik évszaka. Trópusi, illetve száraz és hideg égövi tájakon nem létezik.
 
-<br> <b>Szarvas:</b> <br> <br> A szarvas a párosujjú patások közé tartozó emlősállat. A szarvasok legtöbb faja az őzekkel együtt a szarvasfélék családjába tartozik. Egyes nyelveken egyazon szó jelöli a szarvast és az őzet is. (Például az angol deer szó a jelzőjétől függően – red deer, roe deer – jelenthet szarvast vagy őzet.)
-</p>
-  
+		A Föld északi féltekéjén szeptember, október és november, míg a Föld déli féltekéjén március, április és május az
+		ősz hónapjai. Az ősz a nyár és a tél között helyezkedik el, fő jellemzője a napok rövidülése, a hőmérséklet
+		csökkenése és a lombhullató fák lombjának zöldről sárgává-pirossá színeződése majd lehullása.
 
-<h2> Növények: </h2>
+		Hagyományosan a legtöbb országban ősszel nyitnak az iskolák, indul a tanítás. Ősz a termények betakarításának, a
+		szőlő szüretelésének ideje is
+
+
+		Az ősz fő ünnepei az elmúláshoz kapcsolódnak: november 1. előestéje az angolszász országokban Halloween, november 1.
+		Mindenszentek és november 2. Halottak napja.</p>
+
+	<h2 class="h2" id="allat">Az őszi állatok:</h2>
+	<hr>
+	<img src="image/mokus_adorjan_peter.jpg" alt="" class="img img-responsive rounded float-end">
+	<p class="p">
+		<br>
+		Mókus: az emlősök (Mammalia) osztályának rágcsálók (Rodentia) rendjébe, ezen belül a mókusfélék (Sciuridae)
+		családjába tartozó faj. Egyéb nevei: vörös mókus vagy közönséges erdeimókus; de a népi nyelvben nevezik cibókának,
+		evetnek vagy kelempájsz madárnak is.<br>
+	</p>
+	<br>
+	<hr>
+	<img src="image/gimszarvas.jpg" alt="" class="img img-responsive rounded float-end">
+	<p class="p">
+
+		<br>Szarvas: A szarvas a párosujjú patások közé tartozó emlősállat. A szarvasok legtöbb faja az őzekkel együtt a
+		szarvasfélék családjába tartozik. Egyes nyelveken egyazon szó jelöli a szarvast és az őzet is. (Például az angol
+		deer szó a jelzőjétől függően – red deer, roe deer – jelenthet szarvast vagy őzet.)
+	</p>
+
+
+	<h2 id="noveny"> Növények: </h2>
 	<hr>
 	<img src="image/images.jpg" alt="" class="img img-responsive float-end">
-<p class="p">
-	
-<b>Gomba:</b> <br> <br> A gombák (Fungi) eukarióta sejtekből álló, egy- vagy többsejtű, általában telepes felépítésű, fotoszintetizáló pigmenteket nem tartalmazó, kitintartalmú sejtfallal rendelkező élőlények, melyek az élővilág egy önálló országát alkotják, mert a gombák a növényekkel ellentétben de az állatokhoz hasonlóan heterotrófok, azaz szénszükségletüket szerves anyagokból, energiaszükségletüket pedig kémiai anyagokból fedezik. A gombák többnyire a szárazföldi körülményekhez alkalmazkodtak. Táplálkozásuk szerint vagy szaprofiták (azaz korhadékokat, az elpusztult élőlények maradványait fogyasztják), vagy mikorrhizásak (gyökérkolonizálóak, azaz a gyökerén keresztül szimbiózisban élnek egy gazdanövénnyel), vagy pedig az élő gazdaszervezetet lebontandó szerves anyagként hasznosító paraziták. Szaporodásuk rendszerint a széllel szállítódó spórákkal történik. Jelenleg kb. 148 000 fajukat ismerjük, de becslések  szerint akár 2,2-3,8 millió eddig ismeretlen gombafaj is létezhet.</p>
+	<p class="p">
 
-	  <hr>
-<img src="image/októberke-960x640.jpg" alt="" class="img img-responsive rounded float-end">
-<p class="p">
+		Gomba: A gombák (Fungi) eukarióta sejtekből álló, egy- vagy többsejtű, általában telepes felépítésű,
+		fotoszintetizáló pigmenteket nem tartalmazó, kitintartalmú sejtfallal rendelkező élőlények, melyek az élővilág egy
+		önálló országát alkotják, mert a gombák a növényekkel ellentétben de az állatokhoz hasonlóan heterotrófok, azaz
+		szénszükségletüket szerves anyagokból, energiaszükségletüket pedig kémiai anyagokból fedezik. A gombák többnyire a
+		szárazföldi körülményekhez alkalmazkodtak. Táplálkozásuk szerint vagy szaprofiták (azaz korhadékokat, az elpusztult
+		élőlények maradványait fogyasztják), vagy mikorrhizásak (gyökérkolonizálóak, azaz a gyökerén keresztül szimbiózisban
+		élnek egy gazdanövénnyel), vagy pedig az élő gazdaszervezetet lebontandó szerves anyagként hasznosító paraziták.
+		Szaporodásuk rendszerint a széllel szállítódó spórákkal történik. Jelenleg kb. 148 000 fajukat ismerjük, de
+		becslések szerint akár 2,2-3,8 millió eddig ismeretlen gombafaj is létezhet.</p>
 
-<b>Októberi varjúháj:</b> <br> <br> Az októberi varjúháj vagy októberke (Sedum sieboldii) alacsony termetű, terülő növekedésű évelő növény, amely kerek, húsos leveleivel, valamint csillag alakú rózsaszín virágaival díszít. A nedvesség megtartására specializálódott szürkészöld levelek, ősszel elszíneződnek.
-A kecses virágok, szeptember vége felé, és októberben nyílnak. Az októberi varjúháj külleme, és növekedése miatt, elsősorban kőedényekbe ültetve, valamint sziklakertekben mutat igazán jól. Az októberi varjúháj egyszerűen nevelhető, igénytelen, jó szárazságtűrő növény.
-</p>
-<hr>
+	<hr>
+	<img src="image/októberke-960x640.jpg" alt="" class="img img-responsive rounded float-end">
+	<p class="p">
 
+		Októberi varjúháj: Az októberi varjúháj vagy októberke (Sedum sieboldii) alacsony termetű, terülő növekedésű évelő
+		növény, amely kerek, húsos leveleivel, valamint csillag alakú rózsaszín virágaival díszít. A nedvesség megtartására
+		specializálódott szürkészöld levelek, ősszel elszíneződnek.
+		A kecses virágok, szeptember vége felé, és októberben nyílnak. Az októberi varjúháj külleme, és növekedése miatt,
+		elsősorban kőedényekbe ültetve, valamint sziklakertekben mutat igazán jól. Az októberi varjúháj egyszerűen
+		nevelhető, igénytelen, jó szárazságtűrő növény.
+	</p>
+	<hr>
 	<h3 id="kepek">Képek az őszi tájról: </h3>
 	<p class="p0"> Ezek a képek Tatabányán készültek:</p>
 
@@ -80,14 +112,14 @@ A kecses virágok, szeptember vége felé, és októberben nyílnak. Az október
 	<video class="img2" controls>
 		<source src="image/ozz.mp4" type="video/mp4">
 	</video>
-    
-</body> 
+
+
+</body>
 
 
 <ul>
-	<dl>Készítették:</dl>
-	<li>Becsei Szabolcs</li>
+	<dl id="keszitok"> Készítették:</dl>
 	<li>Herr László</li>
 	<li>Tóbiás Attila</li>
-	
+	<li>Becsei Szabolcs</li>
 </ul>
